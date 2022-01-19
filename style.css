@@ -1,0 +1,37 @@
+body {
+  background-color: aquamarine;
+}
+
+.header {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  background-color: black;
+}
+
+#first-content {
+  background-color: #1F2937;
+  color: white;
+}
+
+#second-content {
+  background-color: whitesmoke;
+}
+
+#third-content {
+  background-color: #E5E7EB;
+}
+
+#fourth-content {
+  background-color: #3882F6;
+  color: white;
+}
