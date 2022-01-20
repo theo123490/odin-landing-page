@@ -80,6 +80,37 @@ body {
 
 #second .content{
   background-color: whitesmoke;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+#second .content #title {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery .item {
+  color: #1F2937;
+  margin: 20px;
+}
+
+.gallery .item .gallery-image img{
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.gallery .item .gallery-text{
+  color: #1F2937;
+  margin: 20px;
 }
 
 #third .content{
