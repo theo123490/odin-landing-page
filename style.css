@@ -72,7 +72,7 @@ body {
   border-radius: 10px;
 }
 
-#first .content #right-content-image img {
+.segment#first .content #right-content-image img {
   max-width: 80%;
   height: auto;
   margin: 20px;
@@ -80,7 +80,7 @@ body {
   margin-bottom: 0px;
 }
 
-#second .content{
+.segment#second .content{
   background-color: whitesmoke;
   flex-direction: column;
   align-items: center;
@@ -122,11 +122,12 @@ body {
   font-size: 18px;
 }
 
-#third .content{
+.segment#third .content{
   background-color: #E5E7EB;
 }
 
-#fourth .content{
+.segment#fourth .content{
   background-color: #3882F6;
   color: white;
 }
+
