@@ -35,28 +35,24 @@ body {
   font-weight: bold;
 }
 
-#first-content {
+.content {
+  vertical-align: middle;
+  padding: 100px;
+}
+#first .content{
   background-color: #1F2937;
   color: white;
-  vertical-align: middle;
-  padding: 100px;
 }
 
-#second-content {
+#second .content{
   background-color: whitesmoke;
-  vertical-align: middle;
-  padding: 100px;
 }
 
-#third-content {
+#third .content{
   background-color: #E5E7EB;
-  vertical-align: middle;
-  padding: 100px;
 }
 
-#fourth-content {
+#fourth .content{
   background-color: #3882F6;
   color: white;
-  vertical-align: middle;
-  padding: 100px;
 }
