@@ -129,11 +129,22 @@ body {
   flex-direction: column;
 }
 
+.segment#third .content #quote-box{
+  padding-left: 20%;
+  padding-right: 20%;
+}
 .segment#third .content #quote{
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
-  padding: 200px;
+  width: 100%;
+  padding: 20px;
+}
+
+.segment#third .content #quoter{
+  font-size: 36px;
+  text-align: right;
+  padding-right: 10%;
 }
 
 .segment#fourth .content{
