@@ -51,17 +51,17 @@ body {
   margin: 5px;
 }
 
-#first #left-content #title{
+.first-content#title{
   font-size: 48px;
   font-weight: bolder;
 }
 
-#first #left-content #detail{
+.first-content#detail{
   font-size: 18px;
   color: #E5E7EB;
 }
 
-#first #left-content #button{
+.first-content#button{
   font-size: 24px;
   font-weight: bold;
   background-color: #3882F6;
@@ -70,7 +70,7 @@ body {
   border-radius: 10px;
 }
 
-#first #right-content-image img {
+#first .content #right-content-image img {
   max-width: 80%;
   height: auto;
   margin: 20px;
